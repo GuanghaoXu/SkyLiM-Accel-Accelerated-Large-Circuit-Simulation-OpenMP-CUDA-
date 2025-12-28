@@ -1,0 +1,38 @@
+﻿  skylim.cpp
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(50,23): warning C4101: “slc”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(53,9): warning C4101: “iscp”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(60,41): warning C4101: “outf2”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(60,16): warning C4101: “ofp2”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(37,12): warning C4101: “k”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(50,36): warning C4101: “zo”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(50,32): warning C4101: “cs”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(53,20): warning C4101: “gcp”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(51,38): warning C4101: “gtot”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(47,9): warning C4101: “start”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(60,8): warning C4101: “ofp1”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(59,30): warning C4101: “brling”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(51,32): warning C4101: “rtot”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(40,13): warning C4101: “ivl”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(47,24): warning C4101: “td_init”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(53,36): warning C4101: “lcp”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(52,9): warning C4101: “inew”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(47,16): warning C4101: “ending”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(37,9): warning C4101: “j”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(55,37): warning C4101: “ii”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(43,46): warning C4101: “idumi”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(40,18): warning C4101: “ovl”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(50,28): warning C4101: “ls”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(55,41): warning C4101: “ij”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(53,30): warning C4101: “vscp”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(59,38): warning C4101: “nodcag”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(59,9): warning C4101: “nodrg”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(41,22): warning C4101: “flag”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(53,25): warning C4101: “rcp”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(53,15): warning C4101: “ccp”: 未引用的局部变量
+C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(564,6): warning C4101: “idumi”: 未引用的局部变量
+  正在生成代码
+  3 of 288 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  skylim.vcxproj -> C:\Users\14983\Desktop\596 old openmp\ECE596 project\ECE596 project\skylim\skylim\x64\Release\skylim.exe

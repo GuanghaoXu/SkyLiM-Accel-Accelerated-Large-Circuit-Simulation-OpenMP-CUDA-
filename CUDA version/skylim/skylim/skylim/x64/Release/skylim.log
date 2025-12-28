@@ -1,0 +1,624 @@
+﻿  Compiling CUDA source file skylim.cpp...
+  
+  C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include"     --keep-dir x64\Release  -maxrregcount=0    --machine 64 --compile -cudart hybrid    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o "C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\x64\Release\skylim.cpp.obj" "C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(420): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nb; i++) {
+    				     ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(420): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nb; i++) {
+    				            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(420): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nb; i++) {
+    				                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(421): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					brid = ckbrch[i].id;
+    					              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(422): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					i12 = ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(423): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					l12 = ckbrch[i].lind;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(424): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					r12 = ckbrch[i].res;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(425): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					nx1 = ckbrch[i].n1;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(426): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					nx2 = ckbrch[i].n2;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(429): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					brch = ckbrch[i];
+    					              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(431): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Gb = ckbrch[i].gb;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(432): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Tb = ckbrch[i].tb;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(437): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum -= ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(437): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum -= ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(438): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum += ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(438): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum += ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(439): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					ixum1 = cknod[ckbrch[i].n1].xum;
+    					                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(440): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					ixum2 = cknod[ckbrch[i].n2].xum;
+    					                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(443): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    						ckbrch[i].cur = i12 + dt / l12 * (v1 - v2 - r12 * i12);  
+    						       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(445): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    						ckbrch[i].cur = (Tb * Gni * v1 - Tb * Tni * ixum1 - Tb * Gnj * v2 + Tb * Tnj * ixum2 + Gb * ckbrch[i].cur) / (1.0 + Tb * Tni + Tb * Tnj); 
+    						       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(445): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    						ckbrch[i].cur = (Tb * Gni * v1 - Tb * Tni * ixum1 - Tb * Gnj * v2 + Tb * Tnj * ixum2 + Gb * ckbrch[i].cur) / (1.0 + Tb * Tni + Tb * Tnj); 
+    						                                                                                                   ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(446): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum += ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(446): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum += ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(447): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum -= ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(447): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum -= ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(464): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nn; i++) {
+    				     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(464): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nn; i++) {
+    				            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(464): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nn; i++) {
+    				                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(465): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					g1 = cknod[i].gond;
+    					           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(466): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					c1 = cknod[i].cap;
+    					           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(467): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					v1 = cknod[i].vol;
+    					           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(468): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Gni = cknod[i].gn;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(469): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Tni = cknod[i].tn;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(470): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					nod = cknod[i];
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(474): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					isum = cknod[i].xum;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(476): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					if (cknod[i].id == idvs) {
+    					          ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(489): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[i].vol = vnew;
+    					      ^
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(13758): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include\cuda_runtime_api.h(14276): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(420): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nb; i++) {
+    				     ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(420): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nb; i++) {
+    				            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(420): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nb; i++) {
+    				                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(421): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					brid = ckbrch[i].id;
+    					              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(422): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					i12 = ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(423): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					l12 = ckbrch[i].lind;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(424): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					r12 = ckbrch[i].res;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(425): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					nx1 = ckbrch[i].n1;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(426): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					nx2 = ckbrch[i].n2;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(429): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					brch = ckbrch[i];
+    					              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(431): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Gb = ckbrch[i].gb;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(432): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Tb = ckbrch[i].tb;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(437): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum -= ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(437): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum -= ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(438): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum += ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(438): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum += ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(439): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					ixum1 = cknod[ckbrch[i].n1].xum;
+    					                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(440): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					ixum2 = cknod[ckbrch[i].n2].xum;
+    					                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(443): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    						ckbrch[i].cur = i12 + dt / l12 * (v1 - v2 - r12 * i12);  
+    						       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(445): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    						ckbrch[i].cur = (Tb * Gni * v1 - Tb * Tni * ixum1 - Tb * Gnj * v2 + Tb * Tnj * ixum2 + Gb * ckbrch[i].cur) / (1.0 + Tb * Tni + Tb * Tnj); 
+    						       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(445): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    						ckbrch[i].cur = (Tb * Gni * v1 - Tb * Tni * ixum1 - Tb * Gnj * v2 + Tb * Tnj * ixum2 + Gb * ckbrch[i].cur) / (1.0 + Tb * Tni + Tb * Tnj); 
+    						                                                                                                   ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(446): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum += ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(446): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n1].xum += ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(447): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum -= ckbrch[i].cur;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(447): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[ckbrch[i].n2].xum -= ckbrch[i].cur;
+    					                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(464): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nn; i++) {
+    				     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(464): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nn; i++) {
+    				            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(464): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    				for (i = 1; i <= Nn; i++) {
+    				                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(465): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					g1 = cknod[i].gond;
+    					           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(466): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					c1 = cknod[i].cap;
+    					           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(467): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					v1 = cknod[i].vol;
+    					           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(468): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Gni = cknod[i].gn;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(469): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					Tni = cknod[i].tn;
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(470): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					nod = cknod[i];
+    					            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(474): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					isum = cknod[i].xum;
+    					             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(476): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					if (cknod[i].id == idvs) {
+    					          ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(489): warning #780-D: reference is to variable "i" (declared at line 160) -- under old for-init scoping rules it would have been variable "i" (declared at line 387)
+    					cknod[i].vol = vnew;
+    					      ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(160): warning #177-D: variable "j" was declared but never referenced
+    	int i, j, k, idvs, t, tstart, tstop;
+    	       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(160): warning #177-D: variable "k" was declared but never referenced
+    	int i, j, k, idvs, t, tstart, tstop;
+    	          ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(160): warning #550-D: variable "tstart" was set but never used
+    	int i, j, k, idvs, t, tstart, tstop;
+    	                      ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(160): warning #550-D: variable "tstop" was set but never used
+    	int i, j, k, idvs, t, tstart, tstop;
+    	                              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(161): warning #550-D: variable "Ni" was set but never used
+    	int Nb, Nn, Ni;
+    	            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(163): warning #177-D: variable "ivl" was declared but never referenced
+    	int kount, ivl, ovl;
+    	           ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(163): warning #177-D: variable "ovl" was declared but never referenced
+    	int kount, ivl, ovl;
+    	                ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(164): warning #177-D: variable "flag" was declared but never referenced
+    	int nx1, nx2, fcnt, flag;
+    	                    ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(165): warning #550-D: variable "ndinter" was set but never used
+    	int adjmax, imethod, kmaxx, ndinter, zer;
+    	                            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(165): warning #550-D: variable "zer" was set but never used
+    	int adjmax, imethod, kmaxx, ndinter, zer;
+    	                                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(166): warning #177-D: variable "idumi" was declared but never referenced
+    	int nodid, nodtyp, brid, brn1, brn2, brtyp, idumi;
+    	                                            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(167): warning #550-D: variable "brch" was set but never used
+    	branch brch;
+    	       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(169): warning #550-D: variable "nod" was set but never used
+    	node nod;
+    	     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(170): warning #177-D: variable "start" was declared but never referenced
+    	time_t start, ending, td_init, td_begin, td_ended;
+    	       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(170): warning #177-D: variable "ending" was declared but never referenced
+    	time_t start, ending, td_init, td_begin, td_ended;
+    	              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(170): warning #177-D: variable "td_init" was declared but never referenced
+    	time_t start, ending, td_init, td_begin, td_ended;
+    	                      ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(172): warning #550-D: variable "sw" was set but never used
+    	double ris, fal, wid, del, zet, sw, simstep, simdur;
+    	                                ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(172): warning #550-D: variable "simstep" was set but never used
+    	double ris, fal, wid, del, zet, sw, simstep, simdur;
+    	                                    ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(172): warning #550-D: variable "simdur" was set but never used
+    	double ris, fal, wid, del, zet, sw, simstep, simdur;
+    	                                             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning #177-D: variable "slc" was declared but never referenced
+    	double dur, tim, dt, slc, ls, cs, zo;
+    	                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning #177-D: variable "ls" was declared but never referenced
+    	double dur, tim, dt, slc, ls, cs, zo;
+    	                          ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning #177-D: variable "cs" was declared but never referenced
+    	double dur, tim, dt, slc, ls, cs, zo;
+    	                              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning #177-D: variable "zo" was declared but never referenced
+    	double dur, tim, dt, slc, ls, cs, zo;
+    	                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(174): warning #177-D: variable "rtot" was declared but never referenced
+    	double i12, l12, r12, v1, v2, rtot, gtot;
+    	                              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(174): warning #177-D: variable "gtot" was declared but never referenced
+    	double i12, l12, r12, v1, v2, rtot, gtot;
+    	                                    ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(175): warning #177-D: variable "inew" was declared but never referenced
+    	double inew, vnew, isum, g1, c1, magi, zeti;
+    	       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #177-D: variable "iscp" was declared but never referenced
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #177-D: variable "ccp" was declared but never referenced
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	             ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #177-D: variable "gcp" was declared but never referenced
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #177-D: variable "rcp" was declared but never referenced
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #177-D: variable "vscp" was declared but never referenced
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #177-D: variable "lcp" was declared but never referenced
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #550-D: variable "esr" was set but never used
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                                       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #550-D: variable "si" was set but never used
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                                            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning #550-D: variable "hsr" was set but never used
+    	double iscp, ccp, gcp, rcp, vscp, lcp, esr, si, hsr;
+    	                                                ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(178): warning #177-D: variable "ii" was declared but never referenced
+    	double ixum1, ixum2, dmaxsq, dmax, ii, ij;
+    	                                   ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(178): warning #177-D: variable "ij" was declared but never referenced
+    	double ixum1, ixum2, dmaxsq, dmax, ii, ij;
+    	                                       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(179): warning #550-D: variable "hs1" was set but never used
+    	double* lps, * cps, hs1, per, vlow, vmag;
+    	                    ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(179): warning #550-D: variable "per" was set but never used
+    	double* lps, * cps, hs1, per, vlow, vmag;
+    	                         ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(179): warning #550-D: variable "vlow" was set but never used
+    	double* lps, * cps, hs1, per, vlow, vmag;
+    	                              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(179): warning #550-D: variable "vmag" was set but never used
+    	double* lps, * cps, hs1, per, vlow, vmag;
+    	                                    ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning #177-D: variable "nodrg" was declared but never referenced
+    	double nodrg, gfict, cfict, brling, nodcag, nano, rshfict;
+    	       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning #550-D: variable "cfict" was set but never used
+    	double nodrg, gfict, cfict, brling, nodcag, nano, rshfict;
+    	                     ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning #177-D: variable "brling" was declared but never referenced
+    	double nodrg, gfict, cfict, brling, nodcag, nano, rshfict;
+    	                            ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning #177-D: variable "nodcag" was declared but never referenced
+    	double nodrg, gfict, cfict, brling, nodcag, nano, rshfict;
+    	                                    ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning #550-D: variable "rshfict" was set but never used
+    	double nodrg, gfict, cfict, brling, nodcag, nano, rshfict;
+    	                                                  ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning #177-D: variable "ofp1" was declared but never referenced
+    	FILE* ofp1, * ofp2, * inf1, * outf1, * outf2;
+    	      ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning #177-D: variable "ofp2" was declared but never referenced
+    	FILE* ofp1, * ofp2, * inf1, * outf1, * outf2;
+    	              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning #550-D: variable "outf1" was set but never used
+    	FILE* ofp1, * ofp2, * inf1, * outf1, * outf2;
+    	                              ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning #177-D: variable "outf2" was declared but never referenced
+    	FILE* ofp1, * ofp2, * inf1, * outf1, * outf2;
+    	                                       ^
+  
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(716): warning #177-D: variable "idumi" was declared but never referenced
+    	int idumi;
+    	    ^
+  
+  skylim.cpp
+  tmpxft_00001dd4_00000000-7_skylim.cudafe1.cpp
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning C4101: “slc”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning C4101: “iscp”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning C4101: “outf2”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning C4101: “ofp2”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(160): warning C4101: “k”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning C4101: “zo”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning C4101: “cs”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning C4101: “gcp”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(174): warning C4101: “gtot”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(170): warning C4101: “start”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(183): warning C4101: “ofp1”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning C4101: “brling”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(174): warning C4101: “rtot”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(163): warning C4101: “ivl”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(170): warning C4101: “td_init”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning C4101: “lcp”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(175): warning C4101: “inew”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(170): warning C4101: “ending”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(160): warning C4101: “j”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(178): warning C4101: “ii”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(166): warning C4101: “idumi”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(163): warning C4101: “ovl”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(173): warning C4101: “ls”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(178): warning C4101: “ij”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning C4101: “vscp”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning C4101: “nodcag”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(182): warning C4101: “nodrg”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(164): warning C4101: “flag”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning C4101: “rcp”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(176): warning C4101: “ccp”: 未引用的局部变量
+C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\skylim\skylim.cpp(716): warning C4101: “idumi”: 未引用的局部变量
+  正在生成代码
+  0 of 258 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  skylim.vcxproj -> C:\Users\14983\Desktop\ECE596 project\ECE596 project\skylim\skylim\x64\Release\skylim.exe

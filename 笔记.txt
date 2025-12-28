@@ -1,0 +1,49 @@
+在同一程序中同时使用 CUDA 与 OpenMP 进行加速时，需特别注意 MSVC（Microsoft Visual C++，即 Visual Studio 自带的 C/C++ 编译器） 相关的编译与调试配置是否全部正确启用。若 OpenMP 的编译选项（如 /openmp）或运行时设置未正确配置，可能会导致 CPU 端多线程未生效，从而出现 OpenMP 实际仅以单线程运行、性能显著下降的情况。因此，在将 CUDA 与 OpenMP 集成到同一工程时，应确保 MSVC 的 OpenMP 支持选项、线程数设置以及调试/发布模式配置均已正确启用，以避免误判为 OpenMP 失效或性能异常。
+
+
+
+那为什么更常用 h_monitored_nodes
+	原因 A：避免“污染”Host 侧 cknod
+	原因 B：避免意外依赖
+	原因 C：更容易扩展“只拷一小块”
+
+先origin模式再cuda会从慢到快逐渐提速：
+	CPU跑的时候 GPU 基本闲着，Windows + NVIDIA 驱动会把 GPU 降频（P-state 下降）	
+	GPU 频率从低功耗爬升到满速
+	CUDA 路径的“首次/恢复”开销
+
+	一启动就选 CUDA 时：GPU 还没完全掉进最低功耗
+
+流：
+node_kernel 的输入（d_cknod[i].xum）依赖于 branch_kernel 的输出，CUDA 流会自动保证这种顺序依赖而无需在branch尾部添加sync
+
+
+异步操作（CUDA 的优势）： CPU 线程只负责将内核的执行请求提交给 GPU，然后立即继续执行后续的主机代码（例如，计时、循环变量更新、准备下一时间步的输入数据）。
+异步拷贝 (cudaMemcpyAsync): CPU 线程只负责提交传输请求给 GPU/驱动程序，然后立即返回并继续执行后续代码。数据传输在后台进行，通常与 GPU 的计算任务并发执行（或重叠）。
+
+
+pinned：
+Host 指针是 pageable 时，GPU 不能直接 DMA 到这块内存，因为可能随时被操作系统换页
+	驱动内部临时申请一块 内部 pinned buffer
+	GPU先用DMA把 D2H 拷到这块 pinned buffer
+	再由 CPU/驱动把 pinned buffer “搬运”（memcpy）到你的 pageable 内存
+
+	即：
+	额外的一次 copy（pinned→pageable）
+	额外的同步点（为了保证 staging 完成）
+	更高的 CPU 参与度（搬运、页锁开销）
+
+Pinned好处：GPU DMA 直接写到 pinned host buffer
+
+为什么不使用共享内存：
+该程序中的内核很少进行块内数据重用，并且主要由不规则的图式访问和跨块原子更新构成，在这种情况下，共享内存无法有效减少全局内存流量或原子争用，反而会引入不必要的开销。
+
+为什么不使用多个 CUDA 流：
+每个模拟时间步都有严格的数据依赖性（分支更新 → 节点更新 → 监控），没有独立的工作可以重叠；因此，使用单个流可以在不增加同步复杂性的情况下保持正确的执行顺序，同时提供相当的性能。
+
+Nsight Systems（nsys） —— 看“时间线 / 是否被卡住”
+Nsight Compute（ncu） —— 看“kernel 内部为什么慢”
+
+Linux：g++是C++编译器  nvcc是CUDA编译驱动
+openMP可执行：g++ -O3 -std=c++14 -fopenmp skylim.cpp xyplot.cpp -o skylim
+CUDA生成可执行：nvcc -O3 -std=c++14 -arch=sm_89 skylim.cu xyplot.cpp -o skylim
